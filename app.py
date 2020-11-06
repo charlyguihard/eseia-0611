@@ -7,7 +7,7 @@ app = Flask(__name__)
 def main():
 	return "Welcome!"
 
-#test de commentaire	
+#test de commentaire ok	
 @app.route('/how are you')
 def hello():
 	return 'I am good, how about you?'
